@@ -141,7 +141,7 @@ header .mobile-nav {
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    background-image: url(/Assets/home4.jpg);
+    background-image: url(Assets/home4.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
