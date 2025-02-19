@@ -192,7 +192,6 @@ header .mobile-nav {
     margin: 5% 10%;
 }  
 .name button a {
-    /* width: 100px; */
     height: auto;
     background-color: white;
     text-decoration: none;
@@ -204,8 +203,7 @@ header .mobile-nav {
 }  
 .name button a:hover {
     color: blue;
-    transition: 0.3s ease-in;
-    transform: translate(2px);
+    transform: translate(0.5px);
 }
 .icons {
     width: 100%;
