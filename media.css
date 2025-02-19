@@ -3,18 +3,15 @@
 /*! Extra Extra large screen  */
 
 @media only screen and (width >= 1367px) { 
-    section {
-        height: auto;
-    }
+    
     header {
         height: 80px;
     }
     header nav .nav-container a {
         font-size: 22px;
     }
-
     .mobile-nav {
-        display: none; /* Explicitly hide on screens larger than 768px */
+        display: none; 
     }
 } 
 
@@ -30,7 +27,7 @@
     }
     section {
         height: auto;
-        width: 100vw;
+        /* width: 100vw; */
     }
 }
 
@@ -340,13 +337,14 @@
         width: 100px;
         height: 45px;
     }
-   
     header nav .nav-container .desktop-nav{
         display: none;
     }
     .mobile-nav {
         display: block; 
     }
+    .mobile-nav-container a {
+        font-size: 12px;
     body {
         font-size: 12px;
     }
