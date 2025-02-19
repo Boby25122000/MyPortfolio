@@ -182,9 +182,33 @@ header .mobile-nav {
     font-style: italic;
     animation: fd 1s ease 0.2s infinite alternate;
 }
-
+.name button {
+    padding: 2px 5px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin: 5% 10%;
+}  
+.name button a {
+    /* width: 100px; */
+    height: auto;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+    font-size: 1.4rem;
+    font-weight: bold;
+    box-shadow: outset 0px 0px 2px 2px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}  
+.name button a:hover {
+    color: blue;
+    transition: 0.3s ease-in;
+    transform: translate(2px);
+}
 .icons {
-    width: 200px;
+    width: 100%;
     height: 50px;
     display: flex;
     align-items: center;
@@ -193,10 +217,10 @@ header .mobile-nav {
     bottom: 0;
     position: absolute;
     font-size: 2.5rem;
+    margin-left: -5%;
 }
 .name .icons a {
     text-decoration: none;
-    /* color: white; */
 }
 /* Specific icon colors */
 #whatsapp:hover {
@@ -605,7 +629,7 @@ span {
     margin-block: 1rem 0;
 }
 .left-contact .btn button {
-    padding: 1rem 1rem;
+    padding: 0.5rem 1.5rem;
     font-size: 1.7rem;
     font-family: cursive;
     background-color: rgb(24, 221, 24);
