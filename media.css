@@ -73,7 +73,7 @@
     #home .name h2{
         font-size: 4.5rem;
     }
-    #home .name h3{
+    .title{
         font-size: 3.3rem;
     }
     .about-img-container img {
@@ -150,7 +150,7 @@
     #home .name h2{
         font-size: 4rem;
     }
-    #home .name h3{
+    .title {
         font-size: 3rem;
     }
     .icons {
@@ -261,7 +261,7 @@
     #home .name h2{
         font-size: 3.5rem;
     }
-    #home .name h3{
+    .title{
         font-size: 2.6rem;
     }
     #contact .contact-info {
@@ -311,7 +311,7 @@
     #home .name h2{
         font-size: 3rem;
     }
-    #home .name h3{
+    .title {
         font-size: 2.5rem;
     }
     .name button {
@@ -358,7 +358,7 @@
     #home .name h2{
         font-size: 2rem;
     }
-    #home .name h3{
+    .title{
         font-size: 1.6rem;
     }
     .icons {

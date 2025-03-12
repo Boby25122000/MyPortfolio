@@ -28,3 +28,17 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+
+//! name
+const title = document.querySelector(".title");
+const highlight = document.querySelector(".highlight");
+
+window.onload = () => {
+    title.style.opacity = 1;
+    title.style.transform =  "translateY(0)";
+    
+    highlight.style.opacity = 1;
+    highlight.style.transform =  "translateY(0)";
+
+}

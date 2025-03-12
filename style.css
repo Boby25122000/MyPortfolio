@@ -167,6 +167,7 @@ header .mobile-nav {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    padding-top: 100px;
 }
 #home .name h4{
     font-size: 3.5rem;
@@ -176,12 +177,23 @@ header .mobile-nav {
     font-size: 5.5rem;
     font-weight: 700;
 }
-#home .name h3{
-    font-size: 4rem;
-    font-weight: 500;
+
+.title {
+    font-size: 3rem;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
     font-style: italic;
-    animation: fd 1s ease 0.2s infinite alternate;
 }
+
+.highlight {
+    color: red;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out 0.5s; /* Delayed for cool effect */
+    font-style: italic;
+}
+
 .name button {
     padding: 2px 5px;
     border-radius: 5px;
@@ -543,8 +555,9 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 1.5rem;
-    color: white;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: black;
     border-radius: 5px;
     box-shadow: 0px 0px 10px red;
 }
@@ -553,12 +566,12 @@ span {
     cursor: pointer;
 }
 
-.projectCard .p1 { background-color: green; }
-.projectCard .p2 { background-color: yellow; }
-.projectCard .p3 { background-color: yellow; }
-.projectCard .p4 { background-color: yellow; }
-.projectCard .p5 { background-color: yellow; }
-.projectCard .p6 { background-color: green; }
+.projectCard .p1 { background-color: white; }
+.projectCard .p2 { background-color: white; }
+.projectCard .p3 { background-color: white; }
+.projectCard .p4 { background-color: white; }
+.projectCard .p5 { background-color: white; }
+.projectCard .p6 { background-color: white; }
 
 /* !===== Contact ===== */
  #contact {
@@ -706,11 +719,12 @@ span {
 
 .arrow {
     position:fixed;
-    height: 6.4rem;
-    width: 6.4rem;
-    right: 2.5rem;
-    bottom: 6.4rem;
+    height: 4rem;
+    width: 4rem;
+    right: 1rem;
+    bottom: 6rem;
     cursor: pointer;
+    border-radius: 50%;
 }
   
 .arrow a i{
