@@ -102,9 +102,9 @@ header .mobile-nav {
     border-radius: 5px;
     cursor: pointer;
     display: none;
-  }
+}
   
-  .bi-backspace-reverse {
+.bi-backspace-reverse {
     display: none;
     position: absolute;
     top: -18px;
@@ -113,24 +113,22 @@ header .mobile-nav {
     color: white;
     cursor: pointer;
     z-index: 1100;
-  }
+}
   
   
-  .mobile-nav-container a {
+.mobile-nav-container a {
     text-decoration: none;
     color: white;
     font-size: 15px;
     margin: 10px 0;
     transition: color 0.3s ease;
-  }
+}
   
-  header .mobile-nav-container a:hover {
+header .mobile-nav-container a:hover {
     text-decoration: 2px underline;
     cursor: pointer;
-  }
+}
   
-
-
 /* ! ===== HOME ===== */
 #home{
     height: 100vh;
@@ -318,7 +316,6 @@ span {
     height: 100%;
     width: 95%;
     padding-inline: 5rem;
-    /* margin-right: 1rem; */
 }
 
 #about .about-content-container p {
