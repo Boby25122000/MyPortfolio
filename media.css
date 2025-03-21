@@ -255,6 +255,10 @@
     body {
         font-size: 10px;
     }
+    /* #home img {
+        height: auto;
+        width: 100%;
+    }     */
     #home .name h4{
         font-size: 2.3rem;
     }
