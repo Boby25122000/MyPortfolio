@@ -588,9 +588,10 @@ span {
     height: 100%;
     display: flex;
     margin-block: 9rem 0;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
 }
-  /* ----left-contect-code--- */
+
+/*! ----left-contect-code--- */
 #contact .contact-info .left-contact {
     width: 60%;
     height: 100%;
@@ -601,8 +602,9 @@ span {
 }
 .contact-info .left-contact .input input {
     height: 5.5rem;
-    width: 30.3rem;
-    margin-inline: 1.2rem 1.5rem;
+    width: 30rem;
+    margin-inline: 1rem;
+    margin-block: 10px;
     border-bottom: 1px solid rgba(239, 236, 236);
     font-size: 2rem;
     opacity: 0.6;
@@ -636,6 +638,12 @@ span {
     box-shadow: -3px -3px 1rem rgba(0, 0, 0, 0.356), 0px 0px 1rem white;
     margin-block: 1rem 0;
 }
+.left-contact .btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
 .left-contact .btn button {
     padding: 0.5rem 1.5rem;
     font-size: 1.7rem;
@@ -645,12 +653,14 @@ span {
     color: aliceblue;
     cursor: pointer;
     transition: all 0.5s ease-out;
+    margin-top: 10px;
 }
 .left-contact .btn button:hover {
     background-color: rgb(12, 156, 12);
     color: rgba(255, 255, 255, 0.781);
 }
-  /* ----right-contect-code--- */
+
+/*! ----right-contect-code--- */
 #contact .contact-info .right-contact {
     width: 40%;
     height: 100%;

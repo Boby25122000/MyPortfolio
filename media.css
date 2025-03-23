@@ -90,7 +90,7 @@
     }
     .contact-info .left-contact .input input {
         height: 4rem;
-        width: 23rem;
+        width: 22.5rem;
     }
     .contact-info .left-contact .Subject input {
         height: 4rem;
@@ -173,7 +173,7 @@
     }
     .contact-info .left-contact .input input {
         height: 3.5rem;
-        width: 20rem;
+        width: 19.5rem;
     }
     .contact-info .left-contact .Subject input {
         height: 3.5rem;
@@ -255,10 +255,6 @@
     body {
         font-size: 10px;
     }
-    /* #home img {
-        height: auto;
-        width: 100%;
-    }     */
     #home .name h4{
         font-size: 2.3rem;
     }
@@ -414,7 +410,7 @@
     }
     .contact-info .left-contact .input input {
         height: 3.5rem;
-        width: 13rem;
+        width: 12.5rem;
     }
     .contact-info .left-contact .Subject input {
         height: 3.5rem;

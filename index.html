@@ -337,22 +337,24 @@
         </div>
         <div class="contact-info">
             <div class="left-contact" data-aos="zoom-in">
-                <div class="input">
-                    <input type="name" spellcheck="true" placeholder="Name*">
-                    <input type="email" spellcheck="true" placeholder="Email*">
-                </div>
-                <div class="Subject">
-                    <input type="search" placeholder="Subject*" spellcheck="true">
-                </div>
-                <div class="form-group">
-                    <textarea name="text" placeholder="Databases are under maintenance, but you can connect with us through the WhatsApp link available in the button below.
-                    U N D E R - M A I N T E N A N C E
-                    "></textarea>
-                </div>
-                <div class="btn">
-                    <button>Send</button>
-                    <!-- <button onclick="Whatsapp()" id="WhatsApp">Join WhatsApp</button> -->
-                </div>
+                <form action="submit.php" method="POST">
+                    <div class="input">
+                        <input type="text" name="name" spellcheck="true" placeholder="Name*" required>
+                        <input type="email" name="email" spellcheck="true" placeholder="Email*" required>
+                    </div>
+                    <div class="Subject">
+                        <input type="text" name="subject" placeholder="Subject*" spellcheck="true" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" placeholder="Your Message*" required></textarea>
+                    </div>
+                    <div class="btn">
+                        <button onclick="window.location.href='https://wa.me/918507509448'">WhatsApp</button>
+                        <button onclick="window.location.href='mailto:bobyk2512000@gmail.com?subject=Contact%20Inquiry&body=Hello,%20I%20would%20like%20to%20get%20in%20touch.';">
+                            Email
+                        </button>
+                    </div>
+                </form>
             </div>
       
             <div class="right-contact" data-aos="zoom-in">
