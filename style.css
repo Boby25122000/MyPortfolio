@@ -655,16 +655,27 @@ span {
     padding: 0.5rem 1.5rem;
     font-size: 1.7rem;
     font-family: cursive;
-    background-color: rgb(24, 221, 24);
     border-radius: 0.4rem;
     color: aliceblue;
     cursor: pointer;
     transition: all 0.5s ease-out;
     margin-top: 10px;
 }
-.left-contact .btn button:hover {
-    background-color: rgb(12, 156, 12);
-    color: rgba(255, 255, 255, 0.781);
+.left-contact .btn button:first-child {
+    background-color: white;
+    color: #25D366;
+}
+.left-contact .btn button:hover:first-child {
+    background-color: #25D366;
+    color: white;
+}
+.left-contact .btn button:last-child {
+    background-color: white;
+    color: #c71610;
+}
+.left-contact .btn button:hover:last-child {
+    background-color: #c71610;
+    color: white;
 }
 
 /*! ----right-contect-code--- */
