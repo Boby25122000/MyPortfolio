@@ -181,11 +181,19 @@ header .mobile-nav-container a:hover {
     font-style: italic;
 }
 
-.highlight {
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(10px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+  
+.title .highlight {
     color: red;
     font-style: italic;
+    display: inline-block;
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards, colorChange 2s infinite alternate;
 }
-
+  
 .name button {
     padding: 2px 5px;
     border-radius: 5px;
