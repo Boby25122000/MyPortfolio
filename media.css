@@ -27,7 +27,6 @@
     }
     section {
         height: auto;
-        /* width: 100vw; */
     }
 }
 
@@ -352,12 +351,21 @@
     body {
         font-size: 12px;
     }
+    #home {
+        max-height: 270px;
+    }
     #home .name h4{
         font-size: 1.3rem;
     }
     #home .name h2{
         font-size: 2rem;
     }
+    .bio{
+        margin-top: -50px;
+    }
+    .heading h2{
+        margin-top: 5rem;
+     }
     .title{
         font-size: 1.6rem;
     }

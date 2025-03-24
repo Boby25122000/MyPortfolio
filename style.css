@@ -10,7 +10,6 @@ box-sizing: border-box;
 scroll-behavior: smooth;
 text-decoration: none;
 font-family: Arial, Helvetica, sans-serif;
-color: white;
 }
 
 *{
@@ -152,6 +151,7 @@ header .mobile-nav-container a:hover {
     justify-content: center;
     align-items: center;
     position: absolute;
+    color: white;
 }
 #home .name{
     width: 100%;
@@ -232,6 +232,7 @@ header .mobile-nav-container a:hover {
 }
 .name .icons a {
     text-decoration: none;
+    color: white;
 }
 /* Specific icon colors */
 #whatsapp:hover {
@@ -274,6 +275,8 @@ span {
 
 .heading h2 {
     font-size: 5rem;
+    color: white;
+    margin-top: 7.5rem;
 }
 
 /* !===== About =====*/
@@ -284,10 +287,10 @@ span {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    color: white;
 }
 
 #about .about-heading h2{
-    margin-top: 7.5rem;
     text-align: center;
     font-weight: normal;
 }
@@ -335,10 +338,10 @@ span {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    color: white;
 }
 
 #skills .skill-heading h2 {
-    margin-top: 7.5rem;
     text-align: center;
     font-weight: normal;
 }
@@ -443,7 +446,6 @@ span {
 }
 
 #education .edu-heading h2 {
-    margin-top: 7.5rem;
     text-align: center;
     font-weight: normal;
 }
@@ -473,17 +475,21 @@ span {
     background-color: black;
     line-height: 25px;
     border-radius: 5px;
-    box-shadow: inset 0px 0px 10px rgba(255, 255, 255, 0.753);
+    box-shadow: inset 0px 0px 15px rgba(255, 255, 255, 0.753);
     padding: 2rem;
     transform: scale(0.8);
     justify-content: center;
     align-items: center;
     padding-block: 30px;
+    color: white;
 }
 
 .box .box-card:hover{
     transform: translateY(-5px) scale(1);
+    box-shadow: inset 0px 0px 10px red, 0px 0px 1rem white;
     transition: all 0.4s ease-in-out;
+    background-color: white;
+    color:red;
 }
 
 .box-card h3 {
@@ -522,7 +528,6 @@ span {
 }
 
 #project .project-heading h2 {
-    margin-top: 7.5rem;
     text-align: center;
     font-weight: normal;
 }
@@ -582,7 +587,6 @@ span {
 }
 
 #contact .contact-heading h2 {
-    margin-top: 7.5rem;
     text-align: center;
     font-weight: normal;
 }
@@ -608,7 +612,7 @@ span {
     width: 30rem;
     margin-inline: 1rem;
     margin-block: 10px;
-    border-bottom: 1px solid rgba(239, 236, 236);
+    border: 1px solid rgba(239, 236, 236);
     font-size: 2rem;
     opacity: 0.6;
     text-align: center;
@@ -620,7 +624,7 @@ span {
 .contact-info .left-contact .Subject input {
     height: 5.5rem;
     width: 64rem;
-    border-bottom: 1px solid rgb(239, 236, 236);
+    border: 1px solid rgb(239, 236, 236);
     opacity: 0.6;
     font-weight: 600;
     font-size: 2rem;
