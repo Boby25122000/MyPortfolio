@@ -30,15 +30,33 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 
-//! name
-const title = document.querySelector(".title");
-const highlight = document.querySelector(".highlight");
+// //! name
+// const title = document.querySelector(".title");
+// const highlight = document.querySelector(".highlight");
 
-window.onload = () => {
-    title.style.opacity = 1;
-    title.style.transform =  "translateY(0)";
+// window.onload = () => {
+//     title.style.opacity = 1;
+//     title.style.transform =  "translateY(0)";
     
-    highlight.style.opacity = 1;
-    highlight.style.transform =  "translateY(0)";
+//     highlight.style.opacity = 1;
+//     highlight.style.transform =  "translateY(0)";
 
-}
+// }
+
+// //! About
+// document.addEventListener("DOMContentLoaded", function () {
+// const aboutContent = document.querySelector(".about-content-container");
+
+// function handleScroll() {
+//     const aboutSection = aboutContent.getBoundingClientRect();
+//     if (aboutSection.top < window.innerHeight * 0.8) {
+//         aboutContent.classList.add("show");
+//     }
+// }
+
+// window.addEventListener("scroll", handleScroll);
+// handleScroll(); 
+// });
+
+// //! Education
+ 

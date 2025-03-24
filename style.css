@@ -131,7 +131,7 @@ header .mobile-nav-container a:hover {
   
 /* ! ===== HOME ===== */
 #home{
-    height: 100vh;
+    height: calc(100vh - 15px);
     width: 100%;
     overflow: hidden;
     position: relative;
@@ -178,17 +178,11 @@ header .mobile-nav-container a:hover {
 
 .title {
     font-size: 3rem;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s ease-out;
     font-style: italic;
 }
 
 .highlight {
     color: red;
-    opacity: 0;
-    transform: translateY(50px);
-    transition: all 1s ease-out 0.5s; /* Delayed for cool effect */
     font-style: italic;
 }
 
@@ -200,6 +194,7 @@ header .mobile-nav-container a:hover {
     align-items: center;
     overflow: hidden;
     margin: 5% 10%;
+    cursor: pointer;
 }  
 .name button a {
     height: auto;
