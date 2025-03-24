@@ -254,6 +254,9 @@
     body {
         font-size: 10px;
     }
+    #home {
+        max-height: 550px;
+    }
     #home .name h4{
         font-size: 2.3rem;
     }
@@ -303,6 +306,12 @@
     }
     body {
         font-size: 10px;
+    }
+    #home {
+        max-height: 390px;
+    }
+    .bio{
+        margin-top: -20px;
     }
     #home .name h4{
         font-size: 2rem;
@@ -361,7 +370,7 @@
         font-size: 2rem;
     }
     .bio{
-        margin-top: -50px;
+        margin-top: -45px;
     }
     .heading h2{
         margin-top: 5rem;
