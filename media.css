@@ -13,6 +13,9 @@
     .mobile-nav {
         display: none; 
     }
+    .about-container{
+        padding-block: 2% !important;
+    }
 } 
 
 
@@ -27,6 +30,9 @@
     }
     section {
         height: auto;
+    }
+    .about-container{
+        padding-block: 2% !important;
     }
 }
 
@@ -47,6 +53,9 @@
     .box .box-card {
         width: 450px;
         height: 160px;
+    }
+    .about-container{
+        padding-block: 3% !important;
     }
 }
 
@@ -74,6 +83,9 @@
     }
     .title{
         font-size: 3.3rem;
+    }
+    .about-container{
+        padding-block: 3% !important;
     }
     .about-img-container img {
         width: 290px;
@@ -229,6 +241,16 @@
         width: 500px;
         height: 180px;
     }
+
+    .experience-container {
+        flex-direction: column;
+        gap: 3.5rem;
+        padding-block: 5%;
+    }
+
+    .experience-card {
+        width: 80%;
+    }
 }
 
 /*! Tablets (Portrait and Landscape) */
@@ -240,6 +262,7 @@
     .logo{
         width: 120;
         height: 50px;
+        margin-left: 1rem;
     }
     header .mobile-nav {
         display:block ; 
@@ -281,6 +304,33 @@
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .experience-container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .experience-card {
+        width: 90%;
+        padding: 2.5rem;
+    }
+
+    .experience-card h3 {
+        font-size: 2rem;
+    }
+
+    .experience-card h4 {
+        font-size: 1.8rem;
+    }
+
+    .exp-duration {
+        font-size: 1.6rem;
+    }
+
+    .experience-card .exp-points {
+        font-size: 1.6rem;
+        line-height: 2rem;
     }
 }
 
@@ -468,5 +518,36 @@
     .right-info .contact-icon a{
         font-size: 1.6rem;
     }
-}
+    .experience-container {
+        padding-block: 4%;
 
+    }
+
+    .experience-card {
+        width: 80%;
+        padding: 2rem;
+    }
+
+    .experience-card h3 {
+        font-size: 1.5rem;
+    }
+
+    .experience-card h4 {
+        font-size: 1.4rem;
+    }
+
+    .exp-duration {
+        font-size: 1.3rem;
+    }
+
+    .experience-card .exp-points {
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+    }
+
+    .exp-close {
+        font-size: 2rem;
+        bottom: 10px; 
+        left: 50%;
+    }
+}

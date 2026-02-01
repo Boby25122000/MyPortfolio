@@ -45,3 +45,30 @@ document.addEventListener("DOMContentLoaded", function() {
 
     typeEffect();
 });
+
+//! Experience
+const cards = document.querySelectorAll('.experience-card');
+
+    cards.forEach(card => {
+
+        // Card click → open details
+        card.addEventListener('click', () => {
+
+            // Close all other cards except the clicked one
+            cards.forEach(otherCard => {
+                if (otherCard !== card) {
+                    otherCard.classList.remove('active');
+                }
+            });
+
+            // Toggle the clicked card
+            card.classList.toggle('active');
+        });
+
+        // Cross button → close current card
+        const closeBtn = card.querySelector('.exp-close');
+        closeBtn.addEventListener('click', (e) => {
+            e.stopPropagation(); // prevent parent click
+            card.classList.remove('active');
+        });
+    });
