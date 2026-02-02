@@ -273,6 +273,10 @@
         margin-top: 6px;
         display: block; 
     }
+    .nav-list a::after{
+        bottom: -5px;
+        height: 3px;   /* optional – mobile pe better lagta hai */
+    }
     body {
         font-size: 10px;
     }
