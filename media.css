@@ -244,8 +244,7 @@
 
     .experience-container {
         flex-direction: column;
-        gap: 3.5rem;
-        padding-block: 5%;
+        gap: 5rem;
     }
 
     .experience-card {
@@ -306,9 +305,13 @@
         align-items: center;
     }
 
+    .about-container{
+        padding-block: 7% !important;
+    }
+
     .experience-container {
         flex-direction: column;
-        gap: 3rem;
+        gap: 5rem;
     }
 
     .experience-card {
@@ -517,10 +520,6 @@
     }
     .right-info .contact-icon a{
         font-size: 1.6rem;
-    }
-    .experience-container {
-        padding-block: 4%;
-
     }
 
     .experience-card {

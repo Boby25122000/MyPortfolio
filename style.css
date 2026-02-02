@@ -67,11 +67,26 @@ nav .nav-list .desktop-nav {
     font-weight: bold;
     text-decoration: none;
     transition: all 0.3s ease;
+    position: relative;
 }
 
-.nav-list a:hover {
-    text-decoration: 2px underline red;
+.nav-list a::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -20px;   /* 👈 yahin se distance control hota hai */
+    width: 0%;
+    height: 5px;
+    background-color: red;
+    transition: width 0.3s ease;
+}
+
+.nav-list a:hover::after{
+    width: 100%;
     cursor: pointer;
+}
+.nav-list a.active::after{
+    width: 100%;
 }
 
 header .mobile-nav {
@@ -107,7 +122,7 @@ header .mobile-nav {
     display: none;
     position: absolute;
     top: -18px;
-    right: -5px;
+    right: 10px;
     font-size: 30px;
     color: white;
     cursor: pointer;
@@ -832,13 +847,15 @@ footer img {
     gap: 4rem;
     justify-content: center;
     align-items: center;
-    padding-block: 6%;
+    padding-block: 7%;
 }
 
 .experience-card {
     width: 43%;
     background-color: black;
-    padding: 3rem 4rem;
+    padding: 3rem;
+    justify-content: center;
+    align-items: center;
     border-radius: 6px;
     box-shadow: inset 0px 0px 15px rgba(255,255,255,0.75);
     transition: all 0.4s ease-in-out;
