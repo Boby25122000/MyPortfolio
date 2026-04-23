@@ -324,6 +324,7 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+        padding-inline: 3rem;
 }
 .about-img-container img{
     width: 320px;
@@ -335,7 +336,7 @@ span {
 
 .about-container .about-content-container {
     height: 100%;
-    width: 90%;
+    width: 98%;
     padding-inline: 3rem;
 }
 
