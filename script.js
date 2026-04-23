@@ -53,7 +53,7 @@ window.addEventListener("scroll", () => {
 
 //! Title
 document.addEventListener("DOMContentLoaded", function() {
-    let text = "Developer";
+    let text = "EPUB Developer | React | Java";
     let index = 0;
     let span = document.querySelector(".highlight");
     
@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", function() {
         if (index < text.length) {
             span.innerHTML += text.charAt(index);
             index++;
-            setTimeout(typeEffect, 200); 
+            setTimeout(typeEffect, 80); 
         }
     }
 
